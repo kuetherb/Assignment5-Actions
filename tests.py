@@ -14,8 +14,8 @@ class TestCase(unittest.TestCase):
         self.assertNotEqual(expected, task.firstrun())
 
     def test3(self):
-        radius = 10
-        expected = 311 + math.pi
+        radius = 1
+        expected = math.pi
         self.assertEqual(expected, task.circle_area(radius))
 
 
