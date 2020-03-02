@@ -18,6 +18,11 @@ class TestCase(unittest.TestCase):
         expected = math.pi
         self.assertEqual(expected, task.circle_area(radius))
 
+    def test4(self):
+        input = [1,2,3,4,5]
+        expected = [1,5]
+        self.assertEqual(expected, task.list(input))
+
 
 if __name__ == '__main__':
     unittest.main()
