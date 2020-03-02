@@ -25,7 +25,7 @@ class TestCase(unittest.TestCase):
 
     def test5(self):
         date1 = [4, 2, 2019]
-        date2 = [4, 4, 2020]
+        date2 = [6, 2, 2020]
         expected = 367
         self.assertEqual(expected, task.days(date1, date2))
 
