@@ -6,5 +6,6 @@ def firstrun():
 
 
 def circle_area(radius):
-    area = math.pi * (radius * radius)
+    area = (radius * radius)
+    area = math.pi * area
     return area
