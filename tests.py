@@ -23,6 +23,12 @@ class TestCase(unittest.TestCase):
         expected = [1, 5]
         self.assertEqual(expected, task.list(input))
 
+    def test5(self):
+        date1 = [1, 2, 2019]
+        date2 = [1, 4, 2020]
+        expected = 367
+        self.assertEqual(expected, task.days(date1, date2))
+
 
 if __name__ == '__main__':
     unittest.main()
